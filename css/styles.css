@@ -1,0 +1,123 @@
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #E0E8FF;
+  margin: 0;
+  max-width: 1440px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 30px;
+}
+
+h2{
+  font-size: 16px;
+}
+.background {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.base {
+  background-color: white;
+  display: inline-block;
+  width: 450px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 100, 0.1);
+  padding-bottom: 50px;
+  margin-top: 110px;
+}
+
+.child2 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.descchild2 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #CEDAF2;
+  /*fallback color*/
+  color: hsl(224, 23%, 55%);
+}
+
+.child3 {
+  background-color: #F8F9FE;
+  background-color: hsl(225, 100%, 98%);
+  width: 350px;
+  height: 95px;
+  margin: auto 50px;
+  border-radius: 12px;
+}
+
+.table {
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.desctd {
+  padding-left: 15px;
+  font-weight: 700;
+}
+
+.child3desc {
+  font-weight: normal;
+  position: relative;
+  bottom: 10px;
+}
+
+.changebtn {
+  padding-left: 90px;
+  position: relative;
+  bottom: 3px;
+  transition-duration: 0.4s;
+}
+
+.changebtn:hover {
+  text-decoration: none;
+  color: #715EE0;
+}
+
+.hero-img {
+  border-radius: 15px 15px 0 0;
+}
+
+.child4 {
+  padding-top: 25px;
+}
+
+.btnpay {
+  text-decoration: none;
+  color: white;
+  background-color: #382AE1;
+  display: inline-block;
+  width: 350px;
+  border-radius: 12px;
+  padding: 15px 0;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 100, 0.2);
+  transition-duration: 0.4s;
+}
+
+.btnpay:hover {
+  background-color: #715EE0;
+}
+
+.btncancel {
+  display: inline-block;
+  text-decoration: none;
+  color: #A8ADC1;
+  /*fallback color*/
+  color: hsl(224, 23%, 55%);
+  padding-top: 30px;
+  transition-duration: 0.4s;
+}
+
+.btncancel:hover {
+  color: #2A2B30;
+}
